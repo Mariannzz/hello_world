@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            margin: 0 auto;
+            position: fixed;
+            background-color: plum;
+            z-index: 1;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        #menu li>a{
+            background-color: plum;
+            color: purple;
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+            min-width: 100px;
+        }
+        #menu li>a:hover{
+            color: cornflowerblue;
+            background-color: antiquewhite;
+        }
+        #menu>li{
+             float: left;
+            text-align:center
+        }
+        #menu>li>ul{
+            display: none;
+        }
+        #menu>li:hover>ul {
+            display:block;
+        }
+
+        #non_menu{
+            background-color: plum;
+            color: purple;
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+            float: right !important;
+            text-align: right !important;
+        }
+        .background_img{
+            background-image: url(https://static.wikia.nocookie.net/universosteven/images/f/f1/Habitacionderose.png/revision/latest?cb=20140620020446&path-prefix=es);
+        }
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: purple;
+            font-size: 50px;
+            display: block;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            text-align: center;
+        }
+        div{
+            height: 200px;
+            width: 100%
+        }
+        #img1{
+            position: absolute;
+            right: 189px;
+            top: 2cm;
+            width: 300px;
+        
+        }
+        #img2{
+            position: absolute;
+            left: 190px;
+            top: 8cm;
+            width: 300px;
+        }
+        #img3{
+            position: absolute;
+            right: 190px;
+            top: 12cm;
+            width: 250px;
+        }
+        h2{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: purple;
+            font-size: 30px;
+            display: block;
+        }
+        hr{
+            opacity: 0;
+        }
+        section{
+            width: 100%;
+        }
+        #capital{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        #correo{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #boton_correo {
+            display: block;
+            margin-left: 50px;
+            
+        }
+        h3{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <body class="background_img">
+        <header>
+                <nav>
+                    <ul id="menu">
+                        <li><a href="#"> Inicio</a></li>
+                        <li><a href="#">Temporadas</a>
+                            <ul>
+                                <li><a href="#">Temporada 1</a></li>
+                                <li><a href="#">Temporada 2</a></li>
+                                <li><a href="#">Temporada 3</a></li>
+                                <li><a href="#">Temporada 4</a></li>
+                                <li><a href="#">Steven Universe Future</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Personajes</a>
+                            <ul>
+                                <li><a href="Prueba_1.html">Los diamantes</a></li>
+                                <li><a href="#">Gemas de cristal</a></li>
+                                <li><a href="#">Humanos</a></li>
+                            </ul>   
+                        </li>
+                        <li id="non_menu">Steven Universe & Steven Universe Future</li> 
+                    </ul>
+                </nav> 
+        </header> <br> <br> <br>
+        <h1>Steven Universe and the crystal Gems </h1> <br> <br> <br>
+        <div><p>Si eres un villano y te portas mal<br>
+            nosotros cuatro te vamos a derrotar<br>
+            el mal nunca gana aunque insista<br>
+            ganamos la pelea y vamos por pizzas<br></p>
+        <img id="img1" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f8ff45e2-0025-4262-937d-c07563dec7e2/d8pgh63-71381af1-bd67-46ad-a26e-95eec53d7a6f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y4ZmY0NWUyLTAwMjUtNDI2Mi05MzdkLWMwNzU2M2RlYzdlMlwvZDhwZ2g2My03MTM4MWFmMS1iZDY3LTQ2YWQtYTI2ZS05NWVlYzUzZDdhNmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vDOCm-yajlACBKrDUF6EDJJcGjaknGYM6fAnJii0psI" alt="steven">
+        </div>
+        <div><p>Somos las gemas de cristal<br>
+            el mundo hay que salvar<br>
+            y aunque creas que no<br>
+            la forma vamos a hallar<br></p>
+        <img id="img2" src="https://toppng.com/public/uploads/thumbnail/file-history-steven-universe-11562900952jdrhbgbgar.png" alt="crystalgems">  
+        </div>
+        <div><p>Por eso la gente de este mundo, cree en:<br>
+            Garnet, Amatista y Perla y... Steven</p><br>
+            <img id="img3" src="https://i.pinimg.com/originals/e8/b1/e6/e8b1e615f0e17ad494782d0ce9ded0bf.png" alt="alltogueter">
+        </div><br>
+        <hr>
+    </body>
+    <form>
+        <h2>¿Qué gema eres?</h2><br>
+        <section id="capital">
+        <ul>
+            <li>1.- ¿Cuál es tu color favorito?</li><br>
+             <li><label for="blanco"><input id="blanco" type="radio" name="colores">Blanco</label> <label for="morado"><input id="morado" type="radio" name="colores">Morado</label> <label for="negro"><input id="negro" type="radio" name="colores">Negro</label> <label for="rojo"><input id="rojo" type="radio" name="colores">Rojo</label></li><br>   
+            <li>2.- ¿Cómo te consideras?</li><br>
+            <li><label for="valiente"><input id="valiente" type="radio" name="personalidad">Valiente</label> <label for="fuerte"><input id="fuerte" type="radio" name="personalidad">Fuerte</label> <label for="inteligente"><input id="inteligente" type="radio" name="personalidad">Inteligente</label> <label for="expontaneo"><input id="expontaneo" type="radio" name="personalidad">Expontaneo</label></li><br>   
+            <li>¿Qué arma es la más fuerte?</li><br>
+            <li><label for="lanza"><input id="lanza" type="radio" name="armas">Lanza</label> <label for="latigo"><input id="latigo" type="radio" name="armas">Latigo</label> <label for="puños"><input id="puños" type="radio" name="armas">Puños</label> <label for="escudo"><input id="escudo" type="radio" name="armas">Escudo</label></li><br>
+        </ul>
+        </section> <br>        
+    </form>
+    <footer>
+        <h3>Ingresa tu correo para recibir noticas de Steven o avances de otras caricaturas</h3><br>
+            <div> <input  type="email" placeholder="Ingresar correo"> <button type="submit">Registrar</button></div>
+    </footer>
+</html>
