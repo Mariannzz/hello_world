@@ -121,6 +121,37 @@
             top: 40em;
             width: 300px;  
         }
+        #ulquest{
+            font-family: Indie Flower;
+            text-align: center;
+            color: #96a8f0;
+            font-weight: bold;
+            font-size: 1.6em;
+        }
+        .respuestas{
+            color: #a5739d;
+        }
+        h4{
+            font-size: 1.3em;
+            font-family: Indie Flower;  
+            color: #a5739d;
+        }
+        .tamano{
+            width: 20em;
+            height: 1.5em;
+        }
+        .tamano_boton{
+            width: 5em;
+            height: 1.7em;
+        }
+        #divfooter{
+            background-color:#c8f3fb;
+            padding: 2em;
+        }
+        #pfooter{
+            font-family: Indie Flower;
+            color: #96a8f0;
+        }
 
     </style>
     <head>
@@ -179,20 +210,23 @@
                 </p>
             </div>
             <form>
-                <h3>Descubre qué Crystal Gem serías con este cuestionario...</h3>
-                <ul>
+                <h3>Descubre qué Crystal Gem serías con este cuestionario...</h3><br><br><br>
+                <ul id="ulquest">
                     <li>1.- ¿Cuál es tu color favorito?</li><br>
-                     <li><label for="blanco"><input id="blanco" type="radio" name="colores">Blanco</label> <label for="morado"><input id="morado" type="radio" name="colores">Morado</label> <label for="negro"><input id="negro" type="radio" name="colores">Negro</label> <label for="rojo"><input id="rojo" type="radio" name="colores">Rojo</label></li><br>   
+                     <li class="respuestas"><label for="blanco"><input id="blanco" type="radio" name="colores">Blanco</label> <label for="morado"><input id="morado" type="radio" name="colores">Morado</label> <label for="negro"><input id="negro" type="radio" name="colores">Negro</label> <label for="rojo"><input id="rojo" type="radio" name="colores">Rojo</label></li><br>   
                     <li>2.- ¿Cómo te consideras?</li><br>
-                    <li><label for="valiente"><input id="valiente" type="radio" name="personalidad">Valiente</label> <label for="fuerte"><input id="fuerte" type="radio" name="personalidad">Fuerte</label> <label for="inteligente"><input id="inteligente" type="radio" name="personalidad">Inteligente</label> <label for="expontaneo"><input id="expontaneo" type="radio" name="personalidad">Expontaneo</label></li><br>   
+                    <li class="respuestas"><label for="valiente"><input id="valiente" type="radio" name="personalidad">Valiente</label> <label for="fuerte"><input id="fuerte" type="radio" name="personalidad">Fuerte</label> <label for="inteligente"><input id="inteligente" type="radio" name="personalidad">Inteligente</label> <label for="expontaneo"><input id="expontaneo" type="radio" name="personalidad">Expontaneo</label></li><br>   
                     <li>¿Qué arma es la más fuerte?</li><br>
-                    <li><label for="lanza"><input id="lanza" type="radio" name="armas">Lanza</label> <label for="latigo"><input id="latigo" type="radio" name="armas">Latigo</label> <label for="puños"><input id="puños" type="radio" name="armas">Puños</label> <label for="escudo"><input id="escudo" type="radio" name="armas">Escudo</label></li><br>
-                </ul>
+                    <li class="respuestas"><label for="lanza"><input id="lanza" type="radio" name="armas">Lanza</label> <label for="latigo"><input id="latigo" type="radio" name="armas">Latigo</label> <label for="puños"><input id="puños" type="radio" name="armas">Puños</label> <label for="escudo"><input id="escudo" type="radio" name="armas">Escudo</label></li><br>
+                </ul><br><br><br>
             </form>
          </body>
         <footer>
-             <div>
+             <div id="divfooter">
+                 <h4>Para recibir más información sobre Steven Universe ingresa tu correo</h4><br>
+                 <input class="tamano" type="email" placeholder="Ingresar correo"> <button class="tamano_boton" type="submit">Registrar</button><br><br>
 
+                 <p id="pfooter">Página creada por <em>Mariannzz</em></p>
             </div>
         </footer>
 
