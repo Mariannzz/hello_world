@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            font-family: Indie Flower;
+            width: 100%;
+            margin: 0 auto;
+            position: fixed;
+            background-color: #c8f3fb;
+            z-index: 1;
+        }        
+
+        ul{
+            list-style: none;
+            font-weight: bold;
+            font-size: x-large;
+        }
+
+        #menu li>a{
+            background-color: 	#c8f3fb;
+            color: #a5739d;
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+            min-width: 100px;
+        }
+        #menu li>a:hover{
+            color: #c8f3fb;
+            background-color: #c1bbdd;
+        }
+        #menu>li{
+             float: left;
+            text-align:center;
+        }
+        #menu>li>ul{
+            display: none;
+        }
+        #menu>li:hover>ul {
+            display:block;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+        }
+        #background_img{
+            background: linear-gradient(90deg, #f8d1dd, pink, #f8d1dd);
+        }
+
+        h1{
+            font-size: 3em;
+            font-family: Indie Flower;  
+            color: #a5739d;
+        }
+        h2{
+            margin-top: 4em;
+            margin-left: 2em;
+            font-size: 2.5em;
+            font-family: Indie Flower;  
+            color: #a5739d;
+        }
+        h3{
+            margin-top: 4em;
+            margin-left: 2em;
+            font-size: 2.5em;
+            font-family: Indie Flower;  
+            color: #a5739d;
+            text-align: center;
+        }
+        #p1{
+            width: 50%;
+            height: 10em;
+            margin-top: 1em;
+            margin-left: 3em;
+            font-family: Indie Flower;
+            font-size: 1.5em;
+            text-align: justify;
+            color:#96a8f0;
+            font-weight: bold;
+        }
+        #img1{
+            position: absolute;
+            right: 17em;
+            top: 11em;
+            width: 300px;
+        }
+        .pizq{
+            margin-top: 2em;
+            margin-left: 10em;
+            font-family: Indie Flower;
+            font-size: 1.8em;
+            text-align: left;
+            color:#96a8f0;
+            font-weight: bold;
+        }
+        .pder{
+            margin-top: 5em;
+            margin-right: 10em;
+            font-family: Indie Flower;
+            font-size: 1.8em;
+            text-align: right;
+            color:#96a8f0;
+            font-weight: bold;
+        }
+        #cookiecat{
+            position: absolute;
+            right: 30em;
+            top: 55em;
+            width: 350px;  
+            transform: rotate(15deg);
+        }
+        #ukelelesteven{
+            position: absolute;
+            left: 12em;
+            top: 40em;
+            width: 300px;  
+        }
+
+    </style>
+    <head>
+        <div>
+        <header>
+            <h1>Steven Universe and the crystal Gems </h1>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#"> Inicio</a></li>
+                    <li><a href="#">Temporadas</a>
+                        <ul>
+                            <li><a href="#">Temporada 1</a></li>
+                            <li><a href="#">Temporada 2</a></li>
+                            <li><a href="#">Temporada 3</a></li>
+                            <li><a href="#">Temporada 4</a></li>
+                            <li><a href="#">Steven Universe Future</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Personajes</a>
+                        <ul>
+                            <li><a href="Prueba_1.html">Los diamantes</a></li>
+                            <li><a href="#">Gemas de cristal</a></li>
+                            <li><a href="#">Humanos</a></li>
+                        </ul>   
+                    </li>
+                </ul>
+            </nav> 
+        </header>
+        </div><br><br><br><br><br>
+    </head>
+        <body id="background_img">
+            <div>
+                <h2>Historia</h2>
+                <p id="p1">Steven Universe es una serie de televisión estadounidense, en formato de animación, creada por Rebecca Sugar para Cartoon Network. Narra la historia de un niño llamado Steven, que vive en el pueblo ficticio de Beach City (Ciudad Playa en Latinoamérica) junto a tres guerreras alienígenas con superpoderes: Garnet, Amatista y Perla. A lo largo de los episodios, Steven aprenderá a controlar los poderes de su gema de cuarzo heredados de su madre y ayudará al resto de gemas en las misiones para defender a la humanidad.</p>
+                <img id="img1" src="https://static.wikia.nocookie.net/steven-universe-america/images/f/f8/Gemas_de_Cristal_2.png/revision/latest?cb=20161020000352&path-prefix=es" alt="steven_crystalgems">
+            </div>
+            <div>
+                <h3>Canción de intro</h3><br><br>
+                <p class="pizq">Si eres un villano y te portas mal<br>
+                    Nosotros cuatro te vamos a derrotar<br>
+                    El mal nunca gana aunque insista<br>
+                    Ganamos la pelea y vamos por pizzas<br>
+                </p>
+                <img id="cookiecat" src="cookie_cat.png" alt="cookie_cat">
+            </div>
+            <div>
+                <p class="pder">
+                    Somos las gemas de cristal<br>
+                    El mundo hay que salvar<br>
+                    Y aunque creas que no<br>
+                    La forma vamos a hallar<br>
+                    Por eso la gente de este mundo<br>
+                    Cree en<br>
+                    Garnet, Amatista y Perla y Steven<br>
+                    <img id="ukelelesteven" src="ukelele_steven.png" alt="ukelele_steven">
+                </p>
+            </div>
+            <form>
+                <h3>Descubre qué Crystal Gem serías con este cuestionario...</h3>
+                <ul>
+                    <li>1.- ¿Cuál es tu color favorito?</li><br>
+                     <li><label for="blanco"><input id="blanco" type="radio" name="colores">Blanco</label> <label for="morado"><input id="morado" type="radio" name="colores">Morado</label> <label for="negro"><input id="negro" type="radio" name="colores">Negro</label> <label for="rojo"><input id="rojo" type="radio" name="colores">Rojo</label></li><br>   
+                    <li>2.- ¿Cómo te consideras?</li><br>
+                    <li><label for="valiente"><input id="valiente" type="radio" name="personalidad">Valiente</label> <label for="fuerte"><input id="fuerte" type="radio" name="personalidad">Fuerte</label> <label for="inteligente"><input id="inteligente" type="radio" name="personalidad">Inteligente</label> <label for="expontaneo"><input id="expontaneo" type="radio" name="personalidad">Expontaneo</label></li><br>   
+                    <li>¿Qué arma es la más fuerte?</li><br>
+                    <li><label for="lanza"><input id="lanza" type="radio" name="armas">Lanza</label> <label for="latigo"><input id="latigo" type="radio" name="armas">Latigo</label> <label for="puños"><input id="puños" type="radio" name="armas">Puños</label> <label for="escudo"><input id="escudo" type="radio" name="armas">Escudo</label></li><br>
+                </ul>
+            </form>
+         </body>
+        <footer>
+             <div>
+
+            </div>
+        </footer>
+
+
+</html>

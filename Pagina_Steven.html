@@ -10,32 +10,30 @@
             width: 100%;
             margin: 0 auto;
             position: fixed;
-            background-color: plum;
+            background-color: #DCFFFB;
             z-index: 1;
-        }
-
-
-        
+        }        
 
         ul{
             list-style: none;
+            font-weight: bold;
         }
 
         #menu li>a{
-            background-color: plum;
-            color: purple;
+            background-color: #DCFFFB;
+            color: #fdaecb;
             padding: 10px;
             display: block;
             text-decoration: none;
             min-width: 100px;
         }
         #menu li>a:hover{
-            color: cornflowerblue;
-            background-color: antiquewhite;
+            color: purple;
+            background-color: #c1bbdd;
         }
         #menu>li{
              float: left;
-            text-align:center
+            text-align:center;
         }
         #menu>li>ul{
             display: none;
@@ -43,24 +41,14 @@
         #menu>li:hover>ul {
             display:block;
         }
-
-        #non_menu{
-            background-color: plum;
-            color: purple;
-            padding: 10px;
-            display: block;
-            text-decoration: none;
-            float: right !important;
-            text-align: right !important;
-        }
         .background_img{
-            background-image: url(https://static.wikia.nocookie.net/universosteven/images/f/f1/Habitacionderose.png/revision/latest?cb=20140620020446&path-prefix=es);
+            background: linear-gradient(90deg,  #ffdcf4, #c1bbdd,  #ffdcf4);
         }
         h1{
-            text-align: center;
+            text-align: left;
             font-family: Arial, Helvetica, sans-serif;
-            color: purple;
-            font-size: 50px;
+            color: #fdaecb;
+            font-size: 2em;
             display: block;
         }
         p{
@@ -70,31 +58,24 @@
         }
         div{
             height: 200px;
-            width: 100%
-        }
-        #img1{
-            position: absolute;
-            right: 189px;
-            top: 2cm;
-            width: 300px;
-        
+            width: 100%;
         }
         #img2{
             position: absolute;
-            left: 190px;
-            top: 8cm;
-            width: 300px;
+            left: 8em;
+            top: 10em;
+            width: 350px;
         }
         #img3{
             position: absolute;
-            right: 190px;
-            top: 12cm;
-            width: 250px;
+            right: 10em;
+            top: 50em;
+            width: 320px;
         }
         h2{
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
-            color: purple;
+            color: #DCFFFB;
             font-size: 30px;
             display: block;
         }
@@ -120,40 +101,66 @@
             
         }
         h3{
+            width: 100%;
             font-family: Arial, Helvetica, sans-serif;
+            margin: 1em;
+            padding: 0.5em;
+            color: #fdaecb;
+        }
+        footer{
+            padding: 5em;
+            border: thick;
+            border-color: black;
+            background-color: #c1bbdd;
+        }
+        .div_h3{
+            height: 5em;
+            width: 45%;
+            border-style: solid;
+            background: #DCFFFB;
+            border-color: #fdaecb;
+        }
+        #centrado{
+            margin: 0.5em;
+            padding: 2em;
+        }
+        .tamano{
+            width: 20em;
+            height: 1.5em;
+        }
+        .tamano_boton{
+            width: 5em;
+            height: 1.7em;
         }
     </style>
-    <body class="background_img">
+    <head>
         <header>
-                <nav>
-                    <ul id="menu">
-                        <li><a href="#"> Inicio</a></li>
-                        <li><a href="#">Temporadas</a>
-                            <ul>
-                                <li><a href="#">Temporada 1</a></li>
-                                <li><a href="#">Temporada 2</a></li>
-                                <li><a href="#">Temporada 3</a></li>
-                                <li><a href="#">Temporada 4</a></li>
-                                <li><a href="#">Steven Universe Future</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Personajes</a>
-                            <ul>
-                                <li><a href="Prueba_1.html">Los diamantes</a></li>
-                                <li><a href="#">Gemas de cristal</a></li>
-                                <li><a href="#">Humanos</a></li>
-                            </ul>   
-                        </li>
-                        <li id="non_menu">Steven Universe & Steven Universe Future</li> 
-                    </ul>
-                </nav> 
-        </header> <br> <br> <br>
-        <h1>Steven Universe and the crystal Gems </h1> <br> <br> <br>
-        <div><p>Si eres un villano y te portas mal<br>
-            nosotros cuatro te vamos a derrotar<br>
-            el mal nunca gana aunque insista<br>
-            ganamos la pelea y vamos por pizzas<br></p>
-        <img id="img1" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f8ff45e2-0025-4262-937d-c07563dec7e2/d8pgh63-71381af1-bd67-46ad-a26e-95eec53d7a6f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y4ZmY0NWUyLTAwMjUtNDI2Mi05MzdkLWMwNzU2M2RlYzdlMlwvZDhwZ2g2My03MTM4MWFmMS1iZDY3LTQ2YWQtYTI2ZS05NWVlYzUzZDdhNmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vDOCm-yajlACBKrDUF6EDJJcGjaknGYM6fAnJii0psI" alt="steven">
+            <h1>Steven Universe and the crystal Gems </h1>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#"> Inicio</a></li>
+                    <li><a href="#">Temporadas</a>
+                        <ul>
+                            <li><a href="#">Temporada 1</a></li>
+                            <li><a href="#">Temporada 2</a></li>
+                            <li><a href="#">Temporada 3</a></li>
+                            <li><a href="#">Temporada 4</a></li>
+                            <li><a href="#">Steven Universe Future</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Personajes</a>
+                        <ul>
+                            <li><a href="Prueba_1.html">Los diamantes</a></li>
+                            <li><a href="#">Gemas de cristal</a></li>
+                            <li><a href="#">Humanos</a></li>
+                        </ul>   
+                    </li>
+                </ul>
+            </nav> 
+    </header> <br> <br> <br><br><br> <br>
+    </head>
+    <body class="background_img">
+        <div><p>Steven Universe es una serie de televisión estadounidense, en formato de animación, creada por Rebecca Sugar para Cartoon Network. Narra la historia de un niño llamado Steven, que vive en el pueblo ficticio de Beach City (Ciudad Playa en Latinoamérica) junto a tres guerreras alienígenas con superpoderes: Garnet, Amatista y Perla. A lo largo de los episodios, Steven aprenderá a controlar los poderes de su gema de cuarzo heredados de su madre y ayudará al resto de gemas en las misiones para defender a la humanidad.<br></p>
         </div>
         <div><p>Somos las gemas de cristal<br>
             el mundo hay que salvar<br>
@@ -163,7 +170,7 @@
         </div>
         <div><p>Por eso la gente de este mundo, cree en:<br>
             Garnet, Amatista y Perla y... Steven</p><br>
-            <img id="img3" src="https://i.pinimg.com/originals/e8/b1/e6/e8b1e615f0e17ad494782d0ce9ded0bf.png" alt="alltogueter">
+            <img id="img3" src="https://static.wikia.nocookie.net/universosteven/images/a/af/Dedos_de_Gato.png/revision/latest?cb=20140725013738&path-prefix=es" alt="steven_cat">
         </div><br>
         <hr>
     </body>
@@ -179,9 +186,11 @@
             <li><label for="lanza"><input id="lanza" type="radio" name="armas">Lanza</label> <label for="latigo"><input id="latigo" type="radio" name="armas">Latigo</label> <label for="puños"><input id="puños" type="radio" name="armas">Puños</label> <label for="escudo"><input id="escudo" type="radio" name="armas">Escudo</label></li><br>
         </ul>
         </section> <br>        
-    </form>
+    </form> 
     <footer>
+        <div class="div_h3">
         <h3>Ingresa tu correo para recibir noticas de Steven o avances de otras caricaturas</h3><br>
-            <div> <input  type="email" placeholder="Ingresar correo"> <button type="submit">Registrar</button></div>
+        </div>
+            <div id="centrado"> <input class="tamano" type="email" placeholder="Ingresar correo"> <button class="tamano_boton" type="submit">Registrar</button></div>
     </footer>
 </html>
